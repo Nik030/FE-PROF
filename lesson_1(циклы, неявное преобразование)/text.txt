@@ -1,0 +1,4 @@
++ 1. Переменные, отличие var от let const
+- 2. Циклы for, while, do ... while
+- 3. Условные операторы if, switch, (condition) ? value1 : value2
+- 4. Неявное проеобразование

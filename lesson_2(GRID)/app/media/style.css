@@ -1,0 +1,53 @@
+
+
+.elem{
+    background-color: bisque;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.div_wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+
+    /* Грид - отступ*/
+    /* grid-gap: 10px;
+    grid-row-gap: 20px;
+    grid-column-gap: 40px;  */
+    
+    /* Позиционирование сетки */
+    /* justify-content: center;
+    align-content: end; */
+
+    /* Позиционарование grid-элемента */
+    /* justify-items: start;
+    align-items: start; */
+}
+
+/* Позиционарование конкретного элемента grid-сетки */
+/* .div_elem_5{
+    align-self: start;
+    justify-self: end;
+} */
+
+.div_elem_1{
+   grid-column: 1/3;
+   grid-row: 1/3;
+}
+
+.div_elem_3{
+    grid-row: 2/4; 
+}
+
+.div_elem_4{
+    grid-column: 1/3;
+}
+
+.div_elem_6{
+    grid-column: 2/4;
+}
+
+.div_elem_7{
+    grid-column: 1/4;
+}
